@@ -1,0 +1,24 @@
+.Square{
+    width:120px;
+    height:120px;
+    border-right: 2px solid black; 
+    font-size: 30px;
+    padding:0;
+    overflow:hidden;
+    transition: all 0.2s;
+    background-color: none;
+}
+
+.Square:last-child{
+    border-right:none;
+}
+
+button{
+    background-color: none;
+    border:none;
+    outline:none;
+}
+
+button:hover{
+    cursor : pointer;
+}
